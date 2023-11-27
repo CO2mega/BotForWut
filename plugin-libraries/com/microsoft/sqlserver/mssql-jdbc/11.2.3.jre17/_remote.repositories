@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 24 07:40:39 CST 2023
+mssql-jdbc-11.2.3.jre17.jar>https\://maven.aliyun.com/repository/central=
+mssql-jdbc-11.2.3.jre17.pom>https\://maven.aliyun.com/repository/central=

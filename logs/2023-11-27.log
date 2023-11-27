@@ -1,0 +1,948 @@
+2023-11-27 10:34:28 I/main: Starting mirai-console...
+2023-11-27 10:34:28 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-11-27 10:34:28 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-11-27 10:34:28 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-11-27 10:34:28 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-11-27 10:34:28 I/plugin: Successfully loaded plugin Chat Command v0.6.0
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.12
+2023-11-27 10:34:29 I/QSign: Loading QSign v1.2.1-beta-dev-d62ddce (unidbg-fetch-qsign vNull)
+2023-11-27 10:34:29 I/QSign: 正在 Mirai 2.16.0 上运行
+2023-11-27 10:34:29 I/QSign: 签名服务目录: E:\Mirai\txlib\8.9.70
+2023-11-27 10:34:29 I/QSign: FEBound sum = 7680
+2023-11-27 10:34:29 I/QSign: 已成功读取签名服务配置
+2023-11-27 10:34:29 I/QSign:   签名协议包名: com.tencent.mobileqq
+2023-11-27 10:34:29 I/QSign:   签名服务版本: 8.9.70
+2023-11-27 10:34:29 I/QSign:   签名服务QUA: V1_AND_SQ_8.9.70_4330_YYB_D
+2023-11-27 10:34:29 I/QSign: =============================================
+2023-11-27 10:34:29 I/QSign: 已加载 ANDROID_PHONE 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:34:29 I/QSign: 已加载 ANDROID_PAD 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:34:29 I/QSign: 支持签名服务的协议: ANDROID_PHONE, ANDROID_PAD
+2023-11-27 10:34:29 I/QSignService: 已注册加密算法提供服务
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin QSign v1.2.1-beta-dev-d62ddce
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin Repeater v1.11
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin J Nudge Reply v1.4.0
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-11-27 10:34:29 I/mirai-hibernate-plugin: Driver: org.h2.Driver Version 2.1
+2023-11-27 10:34:29 I/mirai-hibernate-plugin: Driver: com.mysql.cj.jdbc.Driver Version 8.0
+2023-11-27 10:34:29 I/mirai-hibernate-plugin: Driver: org.mariadb.jdbc.Driver Version 3.1
+2023-11-27 10:34:29 I/mirai-hibernate-plugin: Driver: org.postgresql.Driver Version 42.5
+2023-11-27 10:34:29 I/mirai-hibernate-plugin: Driver: org.sqlite.JDBC Version 3.41
+2023-11-27 10:34:29 I/mirai-hibernate-plugin: Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver Version 11.2
+2023-11-27 10:34:29 I/plugin: Successfully loaded plugin mirai-hibernate-plugin v2.7.1
+2023-11-27 10:34:29 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-11-27 10:34:30 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-11-27 10:34:30 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:34:30 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-11-27 10:34:30 I/MahKtorAdapter[http]: Application started in 0.103 seconds.
+2023-11-27 10:34:30 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-11-27 10:34:30 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-11-27 10:34:30 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYuaD4UJcF
+2023-11-27 10:34:30 I/Mirai HTTP API: adaptors: [http]
+2023-11-27 10:34:30 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:34:30 I/J Nudge Reply: Plugin loaded. https://github.com/jie65535/mirai-console-jnr-plugin
+2023-11-27 10:34:30 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:34:30 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-11-27 10:34:30 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-11-27 10:34:30 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2023-11-27 10:34:30 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2023-11-27 10:34:30 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-11-27 10:34:30 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2023-11-27 10:34:30 W/stderr: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-11-27 10:34:30 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-11-27 10:34:30 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-11-27 10:34:30 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-11-27 10:34:30 W/stderr: 	... 27 more
+2023-11-27 10:34:30 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2023-11-27 10:34:30 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-11-27 10:34:30 W/stderr: 	... 29 more
+2023-11-27 10:34:30 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-11-27 10:34:30 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-11-27 10:34:30 I/点歌插件: 插件加载完毕!
+2023-11-27 10:34:30 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-11-27 10:34:30 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-11-27 10:34:30 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-11-27 10:34:30 I/org.reflections.Reflections: Reflections took 48 ms to scan 1 urls, producing 24 keys and 185 values
+2023-11-27 10:34:30 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-11-27 10:34:30 I/com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 user=
+2023-11-27 10:34:30 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-11-27 10:34:31 I/mirai-hibernate-plugin: Database jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 by H2 JDBC Driver.
+2023-11-27 10:34:31 I/mirai-hibernate-plugin: 如果要使用 mirai-hibernate-plugin 为 mirai-api-http 提供消息持久化, 请安装 https://github.com/cssxsh/mirai-hibernate-http 
+2023-11-27 10:34:31 I/main: 10 plugin(s) enabled.
+2023-11-27 10:34:31 I/main: Auto-login 1652737510, protocol: ANDROID_PHONE, heartbeatStrategy: STAT_HB
+2023-11-27 10:34:31 W/EncryptService.alert: Encrypt service was loaded: top.mrxiaom.qsign.QSignService$Factory@7a8d6eb3
+2023-11-27 10:34:31 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2023-11-27 10:34:31 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2023-11-27 10:34:31 W/EncryptService.alert: Service details:
+2023-11-27 10:34:31 W/EncryptService.alert:   `- Jvm Class: class top.mrxiaom.qsign.QSignService$Factory
+2023-11-27 10:34:31 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+2023-11-27 10:34:31 W/EncryptService.alert:   `- Source: file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar
+2023-11-27 10:34:31 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+ <no principals>
+ java.security.Permissions@183e8c8a (
+ ("java.io.FilePermission" "E:\Mirai\plugins\qsign-1.2.1-beta-dev-d62ddce.mirai2.jar" "read")
+)
+
+
+2023-11-27 10:34:32 I/QSignService: register 1652737510
+2023-11-27 10:34:32 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:34:33 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:34:33 I/QSignService: energy 810_9
+2023-11-27 10:34:33 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:34:33 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:34:33 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:34:34 I/Bot.1652737510: Login successful
+2023-11-27 10:34:34 I/Bot.1652737510: Saved account secrets to local cache for fast login.
+2023-11-27 10:34:34 I/Bot.1652737510: Login successful.
+2023-11-27 10:34:37 V/Bot.1652737510: Event: NudgeEvent(from=NormalMember(1143340879), target=NormalMember(2507137110), subject=Group(452016706), action=戳了戳, suffix=的手后痛哭自己是大笨蛋)
+2023-11-27 10:34:44 V/Bot.1652737510: Event: BotOnlineEvent(bot=Bot(1652737510))
+2023-11-27 10:34:44 I/Bot.1652737510: Bot login successful.
+2023-11-27 10:34:44 I/main: Auto-login 3640997395, protocol: ANDROID_PHONE, heartbeatStrategy: STAT_HB
+2023-11-27 10:34:44 V/Bot.1652737510: Event: AutoLoginEvent.Success(bot=1652737510, protocol=ANDROID_PHONE, heartbeatStrategy=STAT_HB)
+2023-11-27 10:34:44 I/QSignService: register 3640997395
+2023-11-27 10:34:44 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:34:44 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:34:45 I/QSignService: energy 810_9
+2023-11-27 10:34:45 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:34:45 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:34:45 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:34:45 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:34:45 I/Bot.3640997395: Got PoW result, cost: 32 ms
+2023-11-27 10:34:53 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> 完美上b了，望周知（）
+2023-11-27 10:34:54 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> [mirai:marketface:232038,[得意]]
+2023-11-27 10:35:12 E/main: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: com.kasukusakura.mlss.resolver.UnsafeDeviceLoginVerifyCancelledException: Cancelled
+		at mirai-login-solver-sakura-0.0.12.mirai2.jar//com.kasukusakura.mlss.resolver.SakuraLoginSolver.onSolveSliderCaptcha$mirai_login_solver_sakura(SakuraLoginSolver.kt:174)
+		at mirai-login-solver-sakura-0.0.12.mirai2.jar//com.kasukusakura.mlss.resolver.SakuraLoginSolver$onSolveSliderCaptcha$2.invokeSuspend(SakuraLoginSolver.kt)
+		... 6 more
+Caused by: [CIRCULAR REFERENCE: com.kasukusakura.mlss.resolver.UnsafeDeviceLoginVerifyCancelledException: Cancelled]
+
+2023-11-27 10:35:12 V/Bot.3640997395: Event: AutoLoginEvent.Failure(bot=3640997395, protocol=ANDROID_PHONE, cause=net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.)
+2023-11-27 10:35:12 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:35:12 I/main: mirai-console started successfully.
+2023-11-27 10:35:16 V/Bot.1652737510: Event: BotOfflineEvent.Active(bot=Bot(1652737510), cause=null, reconnect=false)
+2023-11-27 10:35:16 I/QSignService: destroy 1652737510
+2023-11-27 10:35:16 I/Bot.1652737510: Bot cancelled: Job was cancelled
+2023-11-27 10:37:16 I/main: Starting mirai-console...
+2023-11-27 10:37:16 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-11-27 10:37:16 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-11-27 10:37:16 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-11-27 10:37:16 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-11-27 10:37:16 I/plugin: Successfully loaded plugin Chat Command v0.6.0
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.12
+2023-11-27 10:37:17 I/QSign: Loading QSign v1.2.1-beta-dev-d62ddce (unidbg-fetch-qsign vNull)
+2023-11-27 10:37:17 I/QSign: 正在 Mirai 2.16.0 上运行
+2023-11-27 10:37:17 I/QSign: 签名服务目录: E:\Mirai\txlib\8.9.70
+2023-11-27 10:37:17 I/QSign: FEBound sum = 7680
+2023-11-27 10:37:17 I/QSign: 已成功读取签名服务配置
+2023-11-27 10:37:17 I/QSign:   签名协议包名: com.tencent.mobileqq
+2023-11-27 10:37:17 I/QSign:   签名服务版本: 8.9.70
+2023-11-27 10:37:17 I/QSign:   签名服务QUA: V1_AND_SQ_8.9.70_4330_YYB_D
+2023-11-27 10:37:17 I/QSign: =============================================
+2023-11-27 10:37:17 I/QSign: 已加载 ANDROID_PHONE 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:37:17 I/QSign: 已加载 ANDROID_PAD 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:37:17 I/QSign: 支持签名服务的协议: ANDROID_PHONE, ANDROID_PAD
+2023-11-27 10:37:17 I/QSignService: 已注册加密算法提供服务
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin QSign v1.2.1-beta-dev-d62ddce
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin Repeater v1.11
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin J Nudge Reply v1.4.0
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-11-27 10:37:17 I/mirai-hibernate-plugin: Driver: org.h2.Driver Version 2.1
+2023-11-27 10:37:17 I/mirai-hibernate-plugin: Driver: com.mysql.cj.jdbc.Driver Version 8.0
+2023-11-27 10:37:17 I/mirai-hibernate-plugin: Driver: org.mariadb.jdbc.Driver Version 3.1
+2023-11-27 10:37:17 I/mirai-hibernate-plugin: Driver: org.postgresql.Driver Version 42.5
+2023-11-27 10:37:17 I/mirai-hibernate-plugin: Driver: org.sqlite.JDBC Version 3.41
+2023-11-27 10:37:17 I/mirai-hibernate-plugin: Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver Version 11.2
+2023-11-27 10:37:17 I/plugin: Successfully loaded plugin mirai-hibernate-plugin v2.7.1
+2023-11-27 10:37:17 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-11-27 10:37:17 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-11-27 10:37:17 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:37:17 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-11-27 10:37:18 I/MahKtorAdapter[http]: Application started in 0.136 seconds.
+2023-11-27 10:37:18 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-11-27 10:37:18 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-11-27 10:37:18 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYaNgEachO
+2023-11-27 10:37:18 I/Mirai HTTP API: adaptors: [http]
+2023-11-27 10:37:18 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:37:18 I/J Nudge Reply: Plugin loaded. https://github.com/jie65535/mirai-console-jnr-plugin
+2023-11-27 10:37:18 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:37:18 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-11-27 10:37:18 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-11-27 10:37:18 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2023-11-27 10:37:18 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2023-11-27 10:37:18 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-11-27 10:37:18 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2023-11-27 10:37:18 W/stderr: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-11-27 10:37:18 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-11-27 10:37:18 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-11-27 10:37:18 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-11-27 10:37:18 W/stderr: 	... 27 more
+2023-11-27 10:37:18 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2023-11-27 10:37:18 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-11-27 10:37:18 W/stderr: 	... 29 more
+2023-11-27 10:37:18 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-11-27 10:37:18 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-11-27 10:37:18 I/点歌插件: 插件加载完毕!
+2023-11-27 10:37:18 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-11-27 10:37:18 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-11-27 10:37:18 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-11-27 10:37:18 I/org.reflections.Reflections: Reflections took 44 ms to scan 1 urls, producing 24 keys and 185 values
+2023-11-27 10:37:18 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-11-27 10:37:18 I/com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 user=
+2023-11-27 10:37:18 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-11-27 10:37:19 I/mirai-hibernate-plugin: Database jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 by H2 JDBC Driver.
+2023-11-27 10:37:19 I/mirai-hibernate-plugin: 如果要使用 mirai-hibernate-plugin 为 mirai-api-http 提供消息持久化, 请安装 https://github.com/cssxsh/mirai-hibernate-http 
+2023-11-27 10:37:19 I/main: 10 plugin(s) enabled.
+2023-11-27 10:37:19 I/main: Auto-login 1652737510, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2023-11-27 10:37:19 W/EncryptService.alert: Encrypt service was loaded: top.mrxiaom.qsign.QSignService$Factory@50c99398
+2023-11-27 10:37:19 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2023-11-27 10:37:19 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2023-11-27 10:37:19 W/EncryptService.alert: Service details:
+2023-11-27 10:37:19 W/EncryptService.alert:   `- Jvm Class: class top.mrxiaom.qsign.QSignService$Factory
+2023-11-27 10:37:19 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+2023-11-27 10:37:19 W/EncryptService.alert:   `- Source: file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar
+2023-11-27 10:37:19 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+ <no principals>
+ java.security.Permissions@31d51518 (
+ ("java.io.FilePermission" "E:\Mirai\plugins\qsign-1.2.1-beta-dev-d62ddce.mirai2.jar" "read")
+)
+
+
+2023-11-27 10:37:19 I/QSignService: register 1652737510
+2023-11-27 10:37:19 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:37:20 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:37:20 I/QSignService: energy 810_9
+2023-11-27 10:37:20 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:37:20 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:37:20 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:37:21 I/Bot.1652737510: Login successful
+2023-11-27 10:37:21 I/Bot.1652737510: Saved account secrets to local cache for fast login.
+2023-11-27 10:37:21 I/Bot.1652737510: Login successful.
+2023-11-27 10:37:27 V/Bot.1652737510: Event: OtherClientOnlineEvent(client=OtherClient(bot=1652737510,deviceName=PHB110,platform=MOBILE), kind=MOBILE_ANDROID)
+2023-11-27 10:37:27 V/Bot.1652737510: Event: OtherClientOfflineEvent(client=OtherClient(bot=1652737510,deviceName=Android手机,platform=MOBILE))
+2023-11-27 10:37:31 V/Bot.1652737510: Event: BotOnlineEvent(bot=Bot(1652737510))
+2023-11-27 10:37:31 I/Bot.1652737510: Bot login successful.
+2023-11-27 10:37:31 I/main: Auto-login 3640997395, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2023-11-27 10:37:31 V/Bot.1652737510: Event: AutoLoginEvent.Success(bot=1652737510, protocol=ANDROID_PAD, heartbeatStrategy=STAT_HB)
+2023-11-27 10:37:31 I/QSignService: register 3640997395
+2023-11-27 10:37:31 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:37:31 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:37:32 I/QSignService: energy 810_9
+2023-11-27 10:37:32 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:37:32 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:37:32 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:37:32 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 花桜(2587172884) -> [mirai:image:{24775CAB-2108-345B-A3A6-00F9CA2D0C9C}.jpg, width=300, height=300, size=11251, type=JPG, isEmoji=true]
+2023-11-27 10:37:32 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:37:32 I/Bot.3640997395: Got PoW result, cost: 61 ms
+2023-11-27 10:37:32 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> 好好好，全是计科人是吧
+2023-11-27 10:37:34 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 我最爱对前端（划掉）人指指点点
+2023-11-27 10:37:37 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> 没发现原油
+2023-11-27 10:37:38 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 依尘ccc(213209806) -> 乐土逼兜侠！启动！
+2023-11-27 10:37:39 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> 我也是。
+2023-11-27 10:37:40 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> [mirai:image:{1E64A9AD-D830-BF69-2466-AFF7B99DBFF6}.jpg, width=300, height=274, size=12831, type=JPG, isEmoji=true]
+2023-11-27 10:37:44 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 花桜(2587172884) -> 一定是监装解析刷太多了
+2023-11-27 10:37:54 I/QSignService: energy 810_2
+2023-11-27 10:37:55 E/main: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)]
+
+2023-11-27 10:37:55 V/Bot.3640997395: Event: AutoLoginEvent.Failure(bot=3640997395, protocol=ANDROID_PAD, cause=net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.)
+2023-11-27 10:37:55 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:37:55 I/main: mirai-console started successfully.
+2023-11-27 10:37:56 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 我不是哦，我是UI哒
+2023-11-27 10:38:00 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] CE夜空(2417177560) -> 你开的是什么星球呀
+2023-11-27 10:38:00 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> 周围都是毒
+2023-11-27 10:38:02 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> ？
+2023-11-27 10:38:04 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> 歪靠
+2023-11-27 10:38:07 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> 带佬
+2023-11-27 10:38:11 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 你这个没按效果图做啊
+2023-11-27 10:38:12 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 逆行谜中谜(593954343) -> 我q做多了？
+2023-11-27 10:38:12 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 指指点点
+2023-11-27 10:38:14 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> 歪靠
+2023-11-27 10:38:15 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> 普通，无特质
+2023-11-27 10:38:17 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 前端，唯唯诺诺
+2023-11-27 10:38:18 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> wok
+2023-11-27 10:38:18 V/Bot.1652737510: Event: NudgeEvent(from=NormalMember(2587172884), target=NormalMember(593954343), subject=Group(675386783), action=喷了喷, suffix=的魔法喷雾，被变成猫娘)
+2023-11-27 10:38:26 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] CE夜空(2417177560) -> 要不你去看看新手教程
+2023-11-27 10:38:34 V/Bot.1652737510: [瑟瑟就是超能力(1076800493)] 芝士可乐(2735427724) -> [mirai:quote:[mirai:source:ids=[434597], internalIds=[169648468], from 2929436550 to 1076800493 at 1701050104], content=<not yet initialized>][mirai:at:2929436550] 草草你的
+2023-11-27 10:38:43 V/Bot.1652737510: [瑟瑟就是超能力(1076800493)] 芝士可乐(2735427724) -> [mirai:quote:[mirai:source:ids=[434596], internalIds=[1541928973], from 1620675168 to 1076800493 at 1701050040], content=<not yet initialized>][mirai:at:1620675168] 草草你的
+2023-11-27 10:38:55 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 羽川喵~(1806931450) -> 摆烂开始
+2023-11-27 10:38:57 V/Bot.1652737510: [明日方舟MuMu官方③群(993540980)] 二凉(2824098066) -> [mirai:image:{1AB8CBB7-DC2A-B496-891F-EFE295C35904}.jpg, width=230, height=228, size=11047, type=JPG, isEmoji=false]
+2023-11-27 10:39:01 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 寒衣渐离(1061669315) -> [mirai:image:{27E80511-7078-91B8-DFE4-119084EC57CE}.jpg, width=180, height=180, size=6520, type=JPG, isEmoji=true]
+2023-11-27 10:39:05 V/Bot.1652737510: Event: NudgeEvent(from=NormalMember(1984995575), target=NormalMember(1806931450), subject=Group(452016706), action=戳了戳, suffix=)
+2023-11-27 10:39:06 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 绘星的大家如果出前端应该绘很优秀
+2023-11-27 10:39:07 E/mirai-login-solver-sakura: [id: 0x98dd877f, L:/10.76.216.181:22333 - R:/10.76.181.62:43060] [exceptionCaught]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2023-11-27 10:39:07 W/io.netty.channel.DefaultChannelPipeline: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2023-11-27 10:39:09 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 瑟瑟第一名(1196359130) -> [mirai:image:{7C659D43-DA9A-9B1E-6F64-D0CA83C3AF08}.jpg, width=308, height=218, size=88602, type=GIF, isEmoji=true]
+2023-11-27 10:39:15 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 因为审美被练出来了
+2023-11-27 10:39:22 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 羽川喵~(1806931450) -> [mirai:image:{E3F4520B-098D-AFE6-18A8-A1595124298A}.jpg, width=450, height=450, size=322951, type=GIF, isEmoji=true]
+2023-11-27 10:39:23 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> 看了，打的还是迷茫，通风的压力不会搞
+2023-11-27 10:39:38 V/Bot.1652737510: [明日方舟MuMu官方③群(993540980)] .(3217888152) -> [mirai:at:1725023436] 烧包
+2023-11-27 10:39:41 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> 还有养的动物不产东西
+2023-11-27 10:39:42 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 羽川喵~(1806931450) -> 然后发现一个前端是用bug构成的
+2023-11-27 10:39:43 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 别说了
+2023-11-27 10:39:47 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> [mirai:image:{A1603DD1-23A5-2EE1-E251-645C1836E09C}.jpg, width=370, height=264, size=67769, type=GIF, isEmoji=true]
+2023-11-27 10:39:50 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> [mirai:image:{FF74C816-15F7-439A-37A2-E67F755A32A2}.jpg, width=640, height=640, size=29790, type=JPG, isEmoji=true]
+2023-11-27 10:39:51 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 已经开始红温了
+2023-11-27 10:39:54 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> [mirai:image:{5E6707A9-E34A-B2AA-45C9-DE8375475C1C}.jpg, width=1220, height=1308, size=215315, type=JPG, isEmoji=true]
+2023-11-27 10:40:05 V/Bot.1652737510: Event: OtherClientOfflineEvent(client=OtherClient(bot=1652737510,deviceName=PHB110,platform=MOBILE))
+2023-11-27 10:40:08 V/Bot.1652737510: [瑟瑟就是超能力(1076800493)] 可乐的每根手指都是我的巧乐兹(3031239263) -> [mirai:image:{EA95762F-66D0-F398-46EE-3AED87C82A8F}.png, width=1024, height=1000, size=430289, type=JPG, isEmoji=true]
+2023-11-27 10:40:10 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 落山机2408科比(2269025755) -> dsa
+2023-11-27 10:40:16 V/Bot.1652737510: Event: NudgeEvent(from=NormalMember(593954343), target=NormalMember(2587172884), subject=Group(675386783), action=戳了戳, suffix=)
+2023-11-27 10:40:18 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 羽川喵~(1806931450) -> 上一份工作是测试[托腮]
+2023-11-27 10:40:24 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 计院2314fw(2177361150) -> dsa
+2023-11-27 10:40:26 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] CE夜空(2417177560) -> [mirai:marketface:235495,[败北]]
+2023-11-27 10:40:26 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 羽川喵~(1806931450) -> 群里直接一步到位了
+2023-11-27 10:40:29 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> [mirai:image:{85364F54-0348-BF9B-6145-211CB13075CB}.jpg, width=542, height=460, size=64966, type=JPG, isEmoji=true]
+2023-11-27 10:40:32 V/Bot.1652737510: [Alas四群(851150687)] 坚强的非洲酋长(1198389366) -> 船有七艘，后宅有六床，你不是其中之一（）
+2023-11-27 10:40:32 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 无人机2301摆个(2976844596) -> dsa
+2023-11-27 10:40:33 V/Bot.1652737510: Group(859791327) <- [mirai:source:ids=[572870], internalIds=[1772498814], from group 2976844596 to 859791327 at 1701052832]dsa
+2023-11-27 10:40:43 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 一步到位
+2023-11-27 10:40:49 V/Bot.1652737510: [RVC变声器答疑互助2群&更新通知(864736763)] 莫以寂刈(2104407774) -> 用屁股呼吸
+2023-11-27 10:40:50 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 我们可以开发app！
+2023-11-27 10:40:54 V/Bot.1652737510: [Alas四群(851150687)] 碧蓝old ass(18585134) -> [mirai:image:{1D7A8F8F-8177-82E7-4947-94CED55467E2}.png, width=1092, height=1090, size=863293, type=PNG, isEmoji=true]
+2023-11-27 10:40:58 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> 歪靠
+2023-11-27 10:41:00 V/Bot.1652737510: Event: NudgeEvent(from=NormalMember(3486988253), target=NormalMember(1806931450), subject=Group(452016706), action=戳了戳, suffix=)
+2023-11-27 10:41:04 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 临床医学2302余跃(3138387231) -> dsa
+2023-11-27 10:41:04 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> wok
+2023-11-27 10:41:06 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 真的
+2023-11-27 10:41:07 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 充Q币了吗？×(3071359014) -> dsa
+2023-11-27 10:41:08 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 单推SSO-林灵（Pa→do↑ru→Pa↑do↓ru↑）(2248876260) -> 74张了
+2023-11-27 10:41:12 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 都齐了
+2023-11-27 10:41:15 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> 听不懂思密达，只会wok
+2023-11-27 10:41:15 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 林夕_梦语(1744354119) -> 满屏的数据，无从下手
+2023-11-27 10:41:20 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 差3d模型
+2023-11-27 10:41:23 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 单推SSO-林灵（Pa→do↑ru→Pa↑do↓ru↑）(2248876260) -> 估计能和满破同步出来
+2023-11-27 10:41:24 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> [mirai:image:{873F0A60-23B5-43B0-9EEB-219E0F6936A5}.jpg, width=389, height=355, size=12826, type=JPG, isEmoji=true]
+2023-11-27 10:41:26 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 无糖乌龙茶(3572217147) -> dsa
+2023-11-27 10:41:26 V/Bot.1652737510: [瑟瑟就是超能力(1076800493)] Aqua57(2293887647) -> [mirai:image:{0EE50E62-E039-5947-2426-B5F183FC54EC}.jpg, width=500, height=494, size=17200, type=JPG, isEmoji=true]
+2023-11-27 10:41:37 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] jiangji0721(2361422549) -> dsa
+2023-11-27 10:41:38 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 从绘画到live2d说不定也行
+2023-11-27 10:41:42 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 差一个idea
+2023-11-27 10:41:46 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 整像素的
+2023-11-27 10:41:47 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> [mirai:image:{63E186B0-5C59-2F64-B363-83298EBD1E25}.gif, width=57, height=128, size=51457, type=GIF, isEmoji=true]
+2023-11-27 10:41:49 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 电商2202 私房菜(3482742092) -> dsa
+2023-11-27 10:41:51 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 2D的
+2023-11-27 10:41:52 V/Bot.1652737510: [明日方舟MuMu官方③群(993540980)] 二凉(2824098066) -> [mirai:image:{F0C2F7AC-D059-52D6-717A-EF7862A9BEA3}.jpg, width=1080, height=1080, size=89336, type=JPG, isEmoji=false]
+2023-11-27 10:41:54 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 花桜(2587172884) -> 好急，好像回5期温暖的家
+2023-11-27 10:41:55 V/Bot.1652737510: Event: MemberJoinEvent.Active(member=3539157008)
+2023-11-27 10:41:56 V/Bot.1652737510: Event: MemberJoinEvent.Active(member=2215691536)
+2023-11-27 10:41:59 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 废物xbdHarry(2294644690) -> dsa
+2023-11-27 10:42:00 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 差一个idea
+2023-11-27 10:42:00 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 花桜(2587172884) -> 想
+2023-11-27 10:42:06 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> [mirai:image:{4F09F12B-1284-F400-FFDF-4C923BF0215D}.jpg, width=466, height=240, size=8858, type=JPG, isEmoji=true]
+2023-11-27 10:42:06 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 新岛真真~平和岛静雄限定(1984995575) -> [mirai:image:{E233A970-95D8-CDF3-7670-7F513FDA2871}.jpg, width=110, height=111, size=19987, type=PNG, isEmoji=true]
+2023-11-27 10:42:09 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 落山机2408科比(2269025755) -> 我的保护套还没到[mirai:image:{82006978-F66B-B418-9EE0-B8EFD4995507}.jpg, width=4096, height=3072, size=3503734, type=JPG, isEmoji=false]
+2023-11-27 10:42:16 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> [mirai:image:{AD25069E-64AB-0612-E326-A1376061C41B}.jpg, width=288, height=300, size=15295, type=JPG, isEmoji=true]
+2023-11-27 10:42:16 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 差一个idea
+2023-11-27 10:42:17 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 落山机2408科比(2269025755) -> 平放太折磨了
+2023-11-27 10:42:21 V/Bot.1652737510: [杜立特空袭 Ⅰ 兔子聊天群(675386783)] 逆行谜中谜(593954343) -> 我203做完再回五期了
+2023-11-27 10:42:22 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> [mirai:image:{703B34B9-E999-67F1-9A32-19ECB0CD87F1}.gif, width=640, height=600, size=2716352, type=GIF, isEmoji=true]
+2023-11-27 10:42:26 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 计算机2302nsfw🤔🧐🤩(3640997395) -> 富哥啊
+2023-11-27 10:42:30 V/Bot.1652737510: [【珀】_(:з」∠)_别急(595995319)] 嗨珀OS(2252107886) -> [mirai:marketface:235495,[败北]]
+2023-11-27 10:42:32 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 群里卧虎藏龙
+2023-11-27 10:42:35 V/Bot.1652737510: [Alas四群(851150687)] 披薩(459124838) -> [mirai:image:{CC3BAB9C-275E-A49E-1D5F-A22AADC56AF7}.png, width=653, height=699, size=96029, type=PNG, isEmoji=false][mirai:image:{4F1F82EA-A0F7-3390-55E9-A211E3192E37}.gif, width=300, height=300, size=51915, type=GIF, isEmoji=true]不知道为什么推图一直在点第一编队
+2023-11-27 10:42:38 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 牛战士(3379675476) -> 富哥啊
+2023-11-27 10:42:38 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 好消息就是大家什么都会
+2023-11-27 10:42:41 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 旧手机4399断雨鲲(1211993973) -> 富哥啊
+2023-11-27 10:42:42 V/Bot.1652737510: Group(859791327) <- [mirai:source:ids=[572882], internalIds=[366393452], from group 1211993973 to 859791327 at 1701052961]富哥啊
+2023-11-27 10:42:42 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 无人机2301摆个(2976844596) -> 罗技k580？
+2023-11-27 10:42:44 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> 坏消息就是大家都是摸鱼人
+2023-11-27 10:42:46 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 无人机2301摆个(2976844596) -> 富哥啊
+2023-11-27 10:42:48 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 落山机2408科比(2269025755) -> 对
+2023-11-27 10:42:52 V/Bot.1652737510: Event: NudgeEvent(from=NormalMember(2175698755), target=NormalMember(2824098066), subject=Group(993540980), action=揉了揉, suffix=的脚，被抓进了监狱)
+2023-11-27 10:42:54 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 谓谓探头(250955656) -> [mirai:image:{A9D9EA55-0667-81F7-A816-0F2B58C6DEB9}.gif, width=300, height=300, size=58434, type=GIF, isEmoji=true]
+2023-11-27 10:42:56 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> 正确的
+2023-11-27 10:42:58 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 墨書岁華(1055349151) -> [mirai:image:{4C3D26DD-B780-CDA5-5D90-FDE620F5918D}.jpg, width=328, height=386, size=41119, type=JPG, isEmoji=true]
+2023-11-27 10:43:00 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 落山机2408科比(2269025755) -> 和鼠标套装买的
+2023-11-27 10:43:03 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 废物xbdHarry(2294644690) -> 富哥v我500
+2023-11-27 10:43:06 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 无人机2301摆个(2976844596) -> 牢大国誉的捐了
+2023-11-27 10:43:07 V/Bot.1652737510: [Alas四群(851150687)] ♔ Dormiveglia ♔(1264498095) -> 让我猜猜又是一个没过5-4
+2023-11-27 10:43:07 V/Bot.1652737510: [绘星大舰队三号舰(452016706)] 堇空(2766354342) -> [mirai:image:{973F7FFC-0156-2603-E9FC-688BB0D1364B}.jpg, width=240, height=240, size=205895, type=GIF, isEmoji=true]
+2023-11-27 10:43:08 V/Bot.1652737510: [🖐🏻🍐ACM协会交流群(859791327)] 落山机2408科比(2269025755) -> 省了很多
+2023-11-27 10:43:09 V/Bot.1652737510: [明日方舟MuMu官方③群(993540980)] 官服 晓霄/清静命(2175698755) -> 凉宝不就是你群u的老婆吗
+2023-11-27 10:43:12 V/Bot.1652737510: Event: BotOfflineEvent.Active(bot=Bot(1652737510), cause=null, reconnect=false)
+2023-11-27 10:43:12 I/QSignService: destroy 1652737510
+2023-11-27 10:43:12 I/Bot.1652737510: Bot cancelled: Job was cancelled
+2023-11-27 10:45:13 I/main: Starting mirai-console...
+2023-11-27 10:45:13 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-11-27 10:45:13 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-11-27 10:45:13 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-11-27 10:45:13 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-11-27 10:45:13 I/plugin: Successfully loaded plugin Chat Command v0.6.0
+2023-11-27 10:45:13 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-11-27 10:45:13 I/plugin: Successfully loaded plugin mirai-device-generator v1.3.0
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.12
+2023-11-27 10:45:14 I/QSign: Loading QSign v1.2.1-beta-dev-d62ddce (unidbg-fetch-qsign vNull)
+2023-11-27 10:45:14 I/QSign: 正在 Mirai 2.16.0 上运行
+2023-11-27 10:45:14 I/QSign: 签名服务目录: E:\Mirai\txlib\8.9.70
+2023-11-27 10:45:14 I/QSign: FEBound sum = 7680
+2023-11-27 10:45:14 I/QSign: 已成功读取签名服务配置
+2023-11-27 10:45:14 I/QSign:   签名协议包名: com.tencent.mobileqq
+2023-11-27 10:45:14 I/QSign:   签名服务版本: 8.9.70
+2023-11-27 10:45:14 I/QSign:   签名服务QUA: V1_AND_SQ_8.9.70_4330_YYB_D
+2023-11-27 10:45:14 I/QSign: =============================================
+2023-11-27 10:45:14 I/QSign: 已加载 ANDROID_PHONE 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:45:14 I/QSign: 已加载 ANDROID_PAD 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:45:14 I/QSign: 支持签名服务的协议: ANDROID_PHONE, ANDROID_PAD
+2023-11-27 10:45:14 I/QSignService: 已注册加密算法提供服务
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin QSign v1.2.1-beta-dev-d62ddce
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin Repeater v1.11
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin J Nudge Reply v1.4.0
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-11-27 10:45:14 I/mirai-hibernate-plugin: Driver: org.h2.Driver Version 2.1
+2023-11-27 10:45:14 I/mirai-hibernate-plugin: Driver: com.mysql.cj.jdbc.Driver Version 8.0
+2023-11-27 10:45:14 I/mirai-hibernate-plugin: Driver: org.mariadb.jdbc.Driver Version 3.1
+2023-11-27 10:45:14 I/mirai-hibernate-plugin: Driver: org.postgresql.Driver Version 42.5
+2023-11-27 10:45:14 I/mirai-hibernate-plugin: Driver: org.sqlite.JDBC Version 3.41
+2023-11-27 10:45:14 I/mirai-hibernate-plugin: Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver Version 11.2
+2023-11-27 10:45:14 I/plugin: Successfully loaded plugin mirai-hibernate-plugin v2.7.1
+2023-11-27 10:45:14 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-11-27 10:45:14 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-11-27 10:45:14 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:45:14 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-11-27 10:45:14 I/MahKtorAdapter[http]: Application started in 0.125 seconds.
+2023-11-27 10:45:14 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-11-27 10:45:14 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-11-27 10:45:14 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEY6GJcJQcP
+2023-11-27 10:45:14 I/Mirai HTTP API: adaptors: [http]
+2023-11-27 10:45:14 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:45:15 I/J Nudge Reply: Plugin loaded. https://github.com/jie65535/mirai-console-jnr-plugin
+2023-11-27 10:45:15 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:45:15 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-11-27 10:45:15 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-11-27 10:45:15 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2023-11-27 10:45:15 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2023-11-27 10:45:15 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-11-27 10:45:15 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2023-11-27 10:45:15 W/stderr: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-11-27 10:45:15 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-11-27 10:45:15 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-11-27 10:45:15 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-11-27 10:45:15 W/stderr: 	... 27 more
+2023-11-27 10:45:15 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2023-11-27 10:45:15 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-11-27 10:45:15 W/stderr: 	... 29 more
+2023-11-27 10:45:15 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-11-27 10:45:15 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-11-27 10:45:15 I/点歌插件: 插件加载完毕!
+2023-11-27 10:45:15 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-11-27 10:45:15 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-11-27 10:45:15 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-11-27 10:45:15 I/org.reflections.Reflections: Reflections took 48 ms to scan 1 urls, producing 24 keys and 185 values
+2023-11-27 10:45:15 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-11-27 10:45:15 I/com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 user=
+2023-11-27 10:45:15 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-11-27 10:45:16 I/mirai-hibernate-plugin: Database jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 by H2 JDBC Driver.
+2023-11-27 10:45:16 I/mirai-hibernate-plugin: 如果要使用 mirai-hibernate-plugin 为 mirai-api-http 提供消息持久化, 请安装 https://github.com/cssxsh/mirai-hibernate-http 
+2023-11-27 10:45:16 I/main: 11 plugin(s) enabled.
+2023-11-27 10:45:16 I/main: Auto-login 3640997395, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2023-11-27 10:45:16 W/EncryptService.alert: Encrypt service was loaded: top.mrxiaom.qsign.QSignService$Factory@2b0483f2
+2023-11-27 10:45:16 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2023-11-27 10:45:16 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2023-11-27 10:45:16 W/EncryptService.alert: Service details:
+2023-11-27 10:45:16 W/EncryptService.alert:   `- Jvm Class: class top.mrxiaom.qsign.QSignService$Factory
+2023-11-27 10:45:16 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+2023-11-27 10:45:16 W/EncryptService.alert:   `- Source: file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar
+2023-11-27 10:45:16 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+ <no principals>
+ java.security.Permissions@5096be74 (
+ ("java.io.FilePermission" "E:\Mirai\plugins\qsign-1.2.1-beta-dev-d62ddce.mirai2.jar" "read")
+)
+
+
+2023-11-27 10:45:16 I/QSignService: register 3640997395
+2023-11-27 10:45:16 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:45:17 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:45:17 I/QSignService: energy 810_9
+2023-11-27 10:45:17 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:45:17 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:45:17 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:45:18 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:45:18 I/Bot.3640997395: Got PoW result, cost: 39 ms
+2023-11-27 10:45:57 I/QSignService: energy 810_2
+2023-11-27 10:45:57 E/main: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)]
+
+2023-11-27 10:45:57 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:45:57 V/Bot.3640997395: Event: AutoLoginEvent.Failure(bot=3640997395, protocol=ANDROID_PAD, cause=net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.)
+2023-11-27 10:45:57 I/Bot.3640997395: device.json 可能已经被拉黑, 将重新生成，请稍后重新尝试手动重新登陆
+2023-11-27 10:45:57 I/main: mirai-console started successfully.
+2023-11-27 10:46:29 I/QSignService: register 3640997395
+2023-11-27 10:46:29 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:46:29 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:46:29 I/QSignService: energy 810_9
+2023-11-27 10:46:29 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:46:29 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:46:29 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:46:30 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:46:30 I/Bot.3640997395: Got PoW result, cost: 20 ms
+2023-11-27 10:46:40 I/QSignService: energy 810_2
+2023-11-27 10:46:40 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:46:40 E/console: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)]
+
+2023-11-27 10:46:59 E/mirai-login-solver-sakura: [id: 0x9f475eb3, L:/10.76.216.181:22333 - R:/10.76.181.62:42826] [exceptionCaught]
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2023-11-27 10:46:59 W/io.netty.channel.DefaultChannelPipeline: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:259)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at mirai-login-solver-sakura-0.0.12.mirai2.jar[private]//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+2023-11-27 10:48:41 W/console: 未知指令: / /autoLogin setConfig 3640997395 password wcp2624191818WC, 输入 ? 获取帮助
+2023-11-27 10:49:36 I/QSignService: register 3640997395
+2023-11-27 10:49:36 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:49:36 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:49:36 I/QSignService: energy 810_9
+2023-11-27 10:49:37 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:49:37 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:49:37 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:49:37 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:49:37 I/Bot.3640997395: Got PoW result, cost: 18 ms
+2023-11-27 10:49:40 E/console: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: com.kasukusakura.mlss.resolver.UnsafeDeviceLoginVerifyCancelledException: Cancelled
+		at mirai-login-solver-sakura-0.0.12.mirai2.jar//com.kasukusakura.mlss.resolver.SakuraLoginSolver.onSolveSliderCaptcha$mirai_login_solver_sakura(SakuraLoginSolver.kt:174)
+		at mirai-login-solver-sakura-0.0.12.mirai2.jar//com.kasukusakura.mlss.resolver.SakuraLoginSolver$onSolveSliderCaptcha$2.invokeSuspend(SakuraLoginSolver.kt)
+		... 6 more
+Caused by: [CIRCULAR REFERENCE: com.kasukusakura.mlss.resolver.UnsafeDeviceLoginVerifyCancelledException: Cancelled]
+
+2023-11-27 10:49:40 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:50:12 I/main: Starting mirai-console...
+2023-11-27 10:50:12 I/main: 
+
+===================================[ Mirai console 2.16.0 ]===================================
+ __       __ __                   __  ______                                      __
+|  \     /  \  \                 |  \/      \                                    |  \
+| ▓▓\   /  ▓▓\▓▓ ______   ______  \▓▓  ▓▓▓▓▓▓\ ______  _______   _______  ______ | ▓▓ ______
+| ▓▓▓\ /  ▓▓▓  \/      \ |      \|  \ ▓▓   \▓▓/      \|       \ /       \/      \| ▓▓/      \
+| ▓▓▓▓\  ▓▓▓▓ ▓▓  ▓▓▓▓▓▓\ \▓▓▓▓▓▓\ ▓▓ ▓▓     |  ▓▓▓▓▓▓\ ▓▓▓▓▓▓▓\  ▓▓▓▓▓▓▓  ▓▓▓▓▓▓\ ▓▓  ▓▓▓▓▓▓\
+| ▓▓\▓▓ ▓▓ ▓▓ ▓▓ ▓▓   \▓▓/      ▓▓ ▓▓ ▓▓   __| ▓▓  | ▓▓ ▓▓  | ▓▓\▓▓    \| ▓▓  | ▓▓ ▓▓ ▓▓    ▓▓
+| ▓▓ \▓▓▓| ▓▓ ▓▓ ▓▓     |  ▓▓▓▓▓▓▓ ▓▓ ▓▓__/  \ ▓▓__/ ▓▓ ▓▓  | ▓▓_\▓▓▓▓▓▓\ ▓▓__/ ▓▓ ▓▓ ▓▓▓▓▓▓▓▓
+| ▓▓  \▓ | ▓▓ ▓▓ ▓▓      \▓▓    ▓▓ ▓▓\▓▓    ▓▓\▓▓    ▓▓ ▓▓  | ▓▓       ▓▓\▓▓    ▓▓ ▓▓\▓▓     \
+ \▓▓      \▓▓\▓▓\▓▓       \▓▓▓▓▓▓▓\▓▓ \▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓▓▓▓▓▓  \▓▓▓▓▓▓ \▓▓ \▓▓▓▓▓▓▓
+
+
+2023-11-27 10:50:12 I/main: Backend: version 2.16.0, built on 2023-10-20 06:28:10.
+2023-11-27 10:50:12 I/main: Frontend Terminal: version 2.16.0, provided by Mamoe Technologies
+2023-11-27 10:50:12 I/main: Welcome to visit https://mirai.mamoe.net/
+2023-11-27 10:50:12 I/plugin: Successfully loaded plugin Chat Command v0.6.0
+2023-11-27 10:50:12 I/plugin: Successfully loaded plugin mirai-api-http v2.9.1
+2023-11-27 10:50:12 I/plugin: Successfully loaded plugin mirai-device-generator v1.3.0
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin mirai-login-solver-sakura v0.0.12
+2023-11-27 10:50:13 I/QSign: Loading QSign v1.2.1-beta-dev-d62ddce (unidbg-fetch-qsign vNull)
+2023-11-27 10:50:13 I/QSign: 正在 Mirai 2.16.0 上运行
+2023-11-27 10:50:13 I/QSign: 签名服务目录: E:\Mirai\txlib\8.9.70
+2023-11-27 10:50:13 I/QSign: FEBound sum = 7680
+2023-11-27 10:50:13 I/QSign: 已成功读取签名服务配置
+2023-11-27 10:50:13 I/QSign:   签名协议包名: com.tencent.mobileqq
+2023-11-27 10:50:13 I/QSign:   签名服务版本: 8.9.70
+2023-11-27 10:50:13 I/QSign:   签名服务QUA: V1_AND_SQ_8.9.70_4330_YYB_D
+2023-11-27 10:50:13 I/QSign: =============================================
+2023-11-27 10:50:13 I/QSign: 已加载 ANDROID_PHONE 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:50:13 I/QSign: 已加载 ANDROID_PAD 协议变更: 8.9.70.11635 (2023年07月22日 00:28:34)
+2023-11-27 10:50:13 I/QSign: 支持签名服务的协议: ANDROID_PHONE, ANDROID_PAD
+2023-11-27 10:50:13 I/QSignService: 已注册加密算法提供服务
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin QSign v1.2.1-beta-dev-d62ddce
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin Repeater v1.11
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin J Nudge Reply v1.4.0
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin 点歌插件 v1.2.1
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin MCL Addon v2.1.1
+2023-11-27 10:50:13 I/mirai-hibernate-plugin: Driver: org.h2.Driver Version 2.1
+2023-11-27 10:50:13 I/mirai-hibernate-plugin: Driver: com.mysql.cj.jdbc.Driver Version 8.0
+2023-11-27 10:50:13 I/mirai-hibernate-plugin: Driver: org.mariadb.jdbc.Driver Version 3.1
+2023-11-27 10:50:13 I/mirai-hibernate-plugin: Driver: org.postgresql.Driver Version 42.5
+2023-11-27 10:50:13 I/mirai-hibernate-plugin: Driver: org.sqlite.JDBC Version 3.41
+2023-11-27 10:50:13 I/mirai-hibernate-plugin: Driver: com.microsoft.sqlserver.jdbc.SQLServerDriver Version 11.2
+2023-11-27 10:50:13 I/plugin: Successfully loaded plugin mirai-hibernate-plugin v2.7.1
+2023-11-27 10:50:13 I/main: Prepared built-in commands: autoLogin, help, login, logout, permission, status, stop
+2023-11-27 10:50:13 W/mirai-api-http: USING INITIAL KEY, please edit the key
+2023-11-27 10:50:13 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:50:13 I/MahKtorAdapter[http]: Autoreload is disabled because the development mode is off.
+2023-11-27 10:50:13 I/MahKtorAdapter[http]: Application started in 0.104 seconds.
+2023-11-27 10:50:13 I/MahKtorAdapter[http]: Responding at http://localhost:8080
+2023-11-27 10:50:13 I/http adapter: >>> [http adapter] is listening at http://localhost:8080
+2023-11-27 10:50:13 I/Mirai HTTP API: Http api server is running with verifyKey: INITKEYvSPLQRtG
+2023-11-27 10:50:13 I/Mirai HTTP API: adaptors: [http]
+2023-11-27 10:50:13 I/Mirai HTTP API: ********************************************************
+2023-11-27 10:50:13 I/J Nudge Reply: Plugin loaded. https://github.com/jie65535/mirai-console-jnr-plugin
+2023-11-27 10:50:13 W/stderr: java.lang.RuntimeException: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:50:13 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:206)
+2023-11-27 10:50:13 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.reload(MiraiSongPlugin.java:511)
+2023-11-27 10:50:13 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.MiraiSongPlugin.onEnable(MiraiSongPlugin.java:289)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.JvmPluginInternal.internalOnEnable$mirai_console(JvmPluginInternal.kt:244)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:393)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.BuiltInJvmPluginLoaderImpl.enable(BuiltInJvmPluginLoaderImpl.kt:40)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.plugin.jvm.JvmPluginLoader$BuiltIn.enable(JvmPluginLoader.kt:54)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.plugin.PluginManager.enablePlugin(PluginManager.kt:173)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.internal.plugin.PluginManagerImpl.enableAllLoadedPlugins$mirai_console(PluginManagerImpl.kt:193)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:360)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:512)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:182)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:181)
+2023-11-27 10:50:13 W/stderr: 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:59)
+2023-11-27 10:50:13 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023-11-27 10:50:13 W/stderr: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2023-11-27 10:50:13 W/stderr: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:86)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Utility.bootJars(Utility.java:76)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Utility.bootMirai(Utility.java:98)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.module.builtin.Boot.boot(Boot.java:113)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.module.ModuleManager.phaseBoot(ModuleManager.java:123)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Loader.lambda$start$4(Loader.java:196)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Loader.tryCatching(Loader.java:151)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Loader.start(Loader.java:196)
+2023-11-27 10:50:13 W/stderr: 	at org.itxtech.mcl.Loader.main(Loader.java:84)
+2023-11-27 10:50:13 W/stderr: Caused by: java.io.IOException: Cannot run program "ffmpeg": CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+2023-11-27 10:50:13 W/stderr: 	at 歌曲.jar//com.khjxiaogu.MiraiSongPlugin.Utils.exeCmd(Utils.java:203)
+2023-11-27 10:50:13 W/stderr: 	... 27 more
+2023-11-27 10:50:13 W/stderr: Caused by: java.io.IOException: CreateProcess error=2, 系统找不到指定的文件。
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.ProcessImpl.create(Native Method)
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:499)
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
+2023-11-27 10:50:13 W/stderr: 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+2023-11-27 10:50:13 W/stderr: 	... 29 more
+2023-11-27 10:50:13 W/点歌插件: ffmpeg启动失败，语音功能失效！
+2023-11-27 10:50:13 I/点歌插件: 当前配置项：宽域AMR:true AMR自动大小:false
+2023-11-27 10:50:13 I/点歌插件: 插件加载完毕!
+2023-11-27 10:50:13 I/MCL Addon: iTXTech MCL Version: 2.1.2-61c8bd8
+2023-11-27 10:50:13 W/MCL Addon: iTXTech Soyuz 未安装，Soyuz MCL Handler 特性已禁用
+2023-11-27 10:50:14 W/stderr: ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+2023-11-27 10:50:14 I/org.reflections.Reflections: Reflections took 52 ms to scan 1 urls, producing 24 keys and 185 values
+2023-11-27 10:50:14 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-11-27 10:50:14 I/com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 user=
+2023-11-27 10:50:14 I/com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-11-27 10:50:14 I/mirai-hibernate-plugin: Database jdbc:h2:file:./data/xyz.cssxsh.mirai.plugin.mirai-hibernate-plugin/hibernate.h2 by H2 JDBC Driver.
+2023-11-27 10:50:14 I/mirai-hibernate-plugin: 如果要使用 mirai-hibernate-plugin 为 mirai-api-http 提供消息持久化, 请安装 https://github.com/cssxsh/mirai-hibernate-http 
+2023-11-27 10:50:14 I/main: 11 plugin(s) enabled.
+2023-11-27 10:50:14 I/main: Auto-login 3640997395, protocol: ANDROID_PAD, heartbeatStrategy: STAT_HB
+2023-11-27 10:50:15 W/EncryptService.alert: Encrypt service was loaded: top.mrxiaom.qsign.QSignService$Factory@5f59b6c5
+2023-11-27 10:50:15 W/EncryptService.alert: All outgoing message may be leaked by this service.
+2023-11-27 10:50:15 W/EncryptService.alert: Use this service if and only if you trusted this service and the service provider.
+2023-11-27 10:50:15 W/EncryptService.alert: Service details:
+2023-11-27 10:50:15 W/EncryptService.alert:   `- Jvm Class: class top.mrxiaom.qsign.QSignService$Factory
+2023-11-27 10:50:15 W/EncryptService.alert:   `- ClassLoader: JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+2023-11-27 10:50:15 W/EncryptService.alert:   `- Source: file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar
+2023-11-27 10:50:15 W/EncryptService.alert:   `- Protected Domain: ProtectionDomain  (file:/E:/Mirai/plugins/qsign-1.2.1-beta-dev-d62ddce.mirai2.jar <no signer certificates>)
+ JvmPluginClassLoader{qsign-1.2.1-beta-dev-d62ddce.mirai2.jar}
+ <no principals>
+ java.security.Permissions@355da59c (
+ ("java.io.FilePermission" "E:\Mirai\plugins\qsign-1.2.1-beta-dev-d62ddce.mirai2.jar" "read")
+)
+
+
+2023-11-27 10:50:15 I/QSignService: register 3640997395
+2023-11-27 10:50:15 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:50:16 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:50:16 I/QSignService: energy 810_9
+2023-11-27 10:50:16 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:50:16 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:50:16 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:50:17 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:50:17 I/Bot.3640997395: Got PoW result, cost: 45 ms
+2023-11-27 10:50:39 I/QSignService: energy 810_2
+2023-11-27 10:50:39 E/main: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=1, title=登录失败, message=账号或密码错误，请重新输入。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=1, title=登录失败, message=账号或密码错误，请重新输入。, errorInfo=)]
+
+2023-11-27 10:50:39 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:50:39 V/Bot.3640997395: Event: AutoLoginEvent.Failure(bot=3640997395, protocol=ANDROID_PAD, cause=net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.)
+2023-11-27 10:50:39 I/main: mirai-console started successfully.
+2023-11-27 10:51:43 I/QSignService: register 3640997395
+2023-11-27 10:51:43 I/QSecVM: QSign-Unidbg 白名单模式
+2023-11-27 10:51:43 W/com.github.unidbg.linux.ARM64SyscallHandler: fstatat64 dirfd=-100, pathname=E:/data/user/0/com.tencent.mobileqq/files/.android_lq, statbuf=RW@0x40dbc8f8, flags=0
+2023-11-27 10:51:43 I/QSignService: energy 810_9
+2023-11-27 10:51:44 W/FileResolver: Couldn't find file: /proc/cpuinfo/cmdline
+2023-11-27 10:51:44 W/FileResolver: Couldn't find file: /proc/meminfo/cmdline
+2023-11-27 10:51:44 W/FileResolver: Couldn't find file: /proc/version/cmdline
+2023-11-27 10:51:44 I/Bot.3640997395: Calculating type 2 PoW, it can take some time....
+2023-11-27 10:51:44 I/Bot.3640997395: Got PoW result, cost: 38 ms
+2023-11-27 10:52:03 I/QSignService: energy 810_2
+2023-11-27 10:52:04 I/Bot.3640997395: Bot cancelled: Bot closed
+2023-11-27 10:52:04 E/console: net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateConnecting$startState$2.invokeSuspend(CommonNetworkHandler.kt:247)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+	Suppressed: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:490)
+		at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+		at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+		... 5 more
+Caused by: [CIRCULAR REFERENCE: net.mamoe.mirai.network.WrongPasswordException: Error(bot=Bot(3640997395), code=45, title=禁止登录, message=你当前使用的QQ版本过低，请前往QQ官网im.qq.com下载最新版QQ后重试。, errorInfo=)]
+
+2023-11-27 10:54:03 W/io.netty.channel.DefaultChannelPipeline: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.handler.timeout.ReadTimeoutException
+
+2023-11-27 11:08:22 W/console: 未知指令: /psign, 输入 ? 获取帮助

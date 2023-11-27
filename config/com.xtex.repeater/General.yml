@@ -1,0 +1,262 @@
+root: 
+  repeaterState: false
+  chainState: false
+  chainPlaces: []
+  killChainState: false
+  killChainAt: 0
+  killChainWith: 打断施法
+byGroups: 
+  859791327: 
+    repeaterState: null
+    chainState: true
+    chainPlaces: 
+      - 3
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  1091596396: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: 
+      - 3
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  851150687: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  1076800493: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  288725174: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  993540980: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  595995319: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  741063064: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  594802968: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  675386783: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  452016706: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  222041696: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  117127629: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  569141186: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  604576790: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  893801036: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  864736763: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  577815716: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  329298450: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  443146006: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  739918169: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  791397080: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  179168318: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  342471900: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  959523749: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  627405128: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  1007915886: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  729416530: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  173442970: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  312579143: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  625190896: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  596104655: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  235103200: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  794133217: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  1050553343: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
+  693586890: 
+    repeaterState: null
+    chainState: null
+    chainPlaces: []
+    killChainState: null
+    killChainAt: null
+    killChainWith: null
